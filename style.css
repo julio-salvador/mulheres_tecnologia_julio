@@ -1,11 +1,11 @@
-body { 
-    background-color: red;
-    font-size: 16px;
+body {
+    background-color: bisque;
+    font-size: 35px;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: black;
-    color: whitesmoke;
+    color: bisque;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 22px;
@@ -13,46 +13,51 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 30%;
+    gap: 50%;
 }
 
-#titulo {
+.titulo {
 
 }
 
-p {
-    
+.texto {
+    font-size: 35px;
 }
 
 .imgcentro {
-
+    width: 550px;
+    height: 550px;
 }
 
-
-ul{
+ul {
     font-size: 16px;
 }
 
-li{
+li {
     display: inline-block;
-   
+
 }
 
-li a{
+li a {
     font-size: 50px;
 
 }
 
-button{
-    font-size: 16px;
-    color: rgb(255, 0, 132);
+a {
+    text-decoration: none;
 }
 
-footer{
-     position: fixed;
-     bottom: 0;
-     background-color: yellow;
-     font-size: 30px;
-     width: 100%;
-     text-align: center;
+button {
+    font-size: 16px;
+    color: bisque;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: bisque;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
 }
